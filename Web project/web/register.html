@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/sign.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Sign Up</h1>
+        <form action="process-signup.php" method="post" id="signup" novalidate>
+
+            <div class="txt_field">
+
+                <input type="text" id="name" name="name" required>
+                <span></span>
+                <label>Name</label>
+            </div>
+
+            <div class="txt_field">
+
+                <input type="text" id="email" name="email" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="password" id="password" name="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="password" id="password_confirmation" name="password_confirmation" required>
+                <span></span>
+                <label>Repeat password</label>
+            </div>
+
+            <input type="submit" value="Register">
+            <div class="sign_link">
+                Already a member ? <a href="login.php"> Login</a>
+            </div>
+
+    </form>
+</div>
+</body>
+</html>
